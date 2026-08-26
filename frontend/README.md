@@ -14,7 +14,7 @@ Run the editable renderer checks from the repository root:
 
 ```sh
 npm run typecheck
-npm run frontend:build
+npm run frontend:build.
 ```
 
 Comments beginning with `@evidence` point to byte or symbol boundaries in the
