@@ -228,6 +228,47 @@ provenance and retained upstream boundaries are described in
 
 ---
 
+## Skills & technologies
+
+`TypeScript` · `HTML/CSS`
+
+
+## Repository structure
+
+Key files and folders (not exhaustive):
+
+- `.gitattributes`
+- `.gitignore`
+- `.node-version`
+- `CONTRIBUTING.md`
+- `NOTICE.md`
+- `PROVENANCE.md`
+- `README.md`
+- `SECURITY.md`
+- `docs/ARCHITECTURE.md`
+- `docs/PUBLISHING.md`
+- `frontend/README.md`
+- `frontend/index.html`
+- `frontend/tsconfig.json`
+- `frontend/vite.config.ts`
+- `package-lock.json`
+- `package.json`
+- `patches/@connectrpc__connect@1.6.1.patch`
+- `research-archives/README.md`
+- `scripts/apply-third-party-patches.mjs`
+- `scripts/audit-renderer-closure.mjs`
+- `scripts/audit-runtime-composition.mjs`
+- `scripts/audit-ui-provenance.mjs`
+- `scripts/bootstrap-runtime.mjs`
+- `scripts/build-box-exec-daemon.mjs`
+- `scripts/build-tree-sitter-electron.mjs`
+- `scripts/build-tree-sitter-node.mjs`
+- `scripts/build.mjs`
+- `scripts/clean-build.mjs`
+- `scripts/electron-main-production-activation.mjs`
+- `scripts/host-production-activation.mjs`
+
+
 ## Maintenance & Audit
 
 - **Audit date:** 10 November 2026
