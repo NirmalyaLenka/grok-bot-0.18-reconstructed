@@ -124,6 +124,20 @@ Remote mode remains the default.
 - Docker Desktop (optional, only for the local sandbox)
 - local Claude Code or Codex authentication for those router choices
 
+## Safe first run
+
+This is an unofficial experimental reconstruction, not a supported release. Treat it as code that can access local files, launch native tools, and use authenticated provider sessions.
+
+Before running the commands below:
+
+- Use a disposable macOS account or isolated test machine. Do not start with a primary account containing sensitive projects or credentials.
+- Review [SECURITY.md](SECURITY.md), [PROVENANCE.md](PROVENANCE.md), [NOTICE.md](NOTICE.md), and the scripts under [scripts/](scripts/) before installing dependencies or bootstrapping the runtime.
+- Be aware that `npm ci` runs the package's `postinstall` script, and `npm run bootstrap` downloads or reads a preserved application image, verifies its checksum, mounts it read-only, and extracts build inputs.
+- Use test provider accounts where possible. Do not rely on the app's local sandbox toggle as a complete security boundary or grant access to sensitive files.
+- Check the source and packaging changes before opening the reconstructed application. A matching checksum proves that an artifact matches the pinned bytes; it does not by itself prove that the artifact or its behavior is trustworthy.
+
+Keep the original installed application and personal credentials separate from experiments with this reconstruction.
+
 ## Quick start
 
 ```sh
